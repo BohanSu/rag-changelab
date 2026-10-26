@@ -1,0 +1,64 @@
+{
+  "name": "ChangeLab external validity audit v1.1",
+  "implementation": "66ed7dd0a3e0ec7095f23216c4e1d3dfc1362202",
+  "purpose": "Attempt to falsify semantic-check and scheduling value; not a new universal hallucination benchmark",
+  "counts": {
+    "controlled_base_cases": 15408,
+    "controlled_derived_observations": 200304,
+    "controlled_independence_groups": 12391,
+    "controlled_heldout_groups": 1816,
+    "controlled_heldout_observations": 29172,
+    "temporal_unique_questions": 11613,
+    "temporal_contexts": 11999,
+    "recorded_ragtruth_responses": 17790,
+    "unique_release_probes": 2182,
+    "release_document_families": 240
+  },
+  "label_origins": {
+    "controlled": "Automatically constructed transformations with declared expected statuses; not human-labeled model responses",
+    "ragtruth": "External human span annotations; implicit_true excluded from strict label; native ChangeLab semantic score unsupported/unscored",
+    "release": "Actual full retrieval source/version signature changes; not incorrect-answer labels"
+  },
+  "independence": "Group all correlated answer variants, same numeric-masked temporal query, business source fields, and retriever results from one update. No pooled accuracy across different targets.",
+  "indexes": {
+    "incremental-index.jsonl.gz": {
+      "rows": 53200,
+      "uncompressed_sha256": "3fb51f661f60ab0ffd7e30f7ebb7f155b2eff89c8aaf998fafe2f403a0fe6231",
+      "compressed_bytes": 1352332
+    },
+    "ragtruth-index.jsonl.gz": {
+      "rows": 17790,
+      "uncompressed_sha256": "4049a003278b8b3902bb52af6446ec9dc2f7cbe82cd83e63ceffad23e360bf1d",
+      "compressed_bytes": 232590
+    },
+    "contract-index.jsonl.gz": {
+      "rows": 200304,
+      "uncompressed_sha256": "d7d5a1a908945a20189e75f1ab8a0763d45571bb66b7a062ebf521d82ed4ead9",
+      "compressed_bytes": 2287546
+    },
+    "retrieval-index.jsonl.gz": {
+      "rows": 34200,
+      "uncompressed_sha256": "94aa6d8e797fc72d65cb98808e49b5ff33824afb0a9f2f85b3db9a832f63f73f",
+      "compressed_bytes": 822368
+    }
+  },
+  "reproduction": "Run fetch.py, run.py, incremental.py, promptfoo_compare.py; use pinned requirements and inspect protocol revisions",
+  "license": "Project-authored code and indexes: MIT. RAGTruth license retained upstream. TimelyQABench lacks an explicit repository license; external corpus text is fetched on demand and not redistributed here. Real project documentation retains its upstream license.",
+  "environment": {
+    "python": "3.13.9",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "dependencies": {
+      "numpy": "2.2.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.7.2",
+      "pydantic": "2.12.2",
+      "networkx": "3.6.1",
+      "httpx": "0.28.1"
+    }
+  },
+  "live_lightrag": {
+    "executed": false,
+    "reason": "No deployment/provider was configured; CPU retrieval and recorded answers do not satisfy this gate"
+  },
+  "workflow_success_meaning": "Successful execution and integrity checks; does not imply the utility continuation gate passed"
+}

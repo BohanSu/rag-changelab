@@ -1,0 +1,480 @@
+{
+  "releases": [
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "41597adffa9d",
+        "commit": "41597adffa9d34171a63f7511fc0f702558dd08c",
+        "file": "history-snapshots/encode--httpx--41597adffa9d34171a63f7511fc0f702558dd08c.zip",
+        "sha256": "ecfed387df1e982b072d6f6c3a920eef7f502152959b06b6dfeb508b307bcc9e",
+        "bytes": 50190,
+        "url": "https://github.com/encode/httpx/tree/41597adffa9d34171a63f7511fc0f702558dd08c/docs"
+      },
+      "after": {
+        "tag": "1805ee0d22f9",
+        "commit": "1805ee0d22f96e2b29f0500dd3076e10020004bf",
+        "file": "history-snapshots/encode--httpx--1805ee0d22f96e2b29f0500dd3076e10020004bf.zip",
+        "sha256": "ebec1f9167543e3e7ebd72a88285b4138e6aae550038d5cb2adbae78cb94c8ea",
+        "bytes": 49540,
+        "url": "https://github.com/encode/httpx/tree/1805ee0d22f96e2b29f0500dd3076e10020004bf/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "3f76571d3429",
+        "commit": "3f76571d3429497c4ee4ecf5d8bc034b6f765957",
+        "file": "history-snapshots/encode--httpx--3f76571d3429497c4ee4ecf5d8bc034b6f765957.zip",
+        "sha256": "b61e4fec2308ae7b3ba8227b0450cc25b97e2c112e0e0a4363524268ee2a422b",
+        "bytes": 50136,
+        "url": "https://github.com/encode/httpx/tree/3f76571d3429497c4ee4ecf5d8bc034b6f765957/docs"
+      },
+      "after": {
+        "tag": "8e36f2bc685d",
+        "commit": "8e36f2bc685dfbe43cd7503bc1c422a6ed6e05a5",
+        "file": "history-snapshots/encode--httpx--8e36f2bc685dfbe43cd7503bc1c422a6ed6e05a5.zip",
+        "sha256": "ecfed387df1e982b072d6f6c3a920eef7f502152959b06b6dfeb508b307bcc9e",
+        "bytes": 50190,
+        "url": "https://github.com/encode/httpx/tree/8e36f2bc685dfbe43cd7503bc1c422a6ed6e05a5/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "1bf1fc0ea841",
+        "commit": "1bf1fc0ea8417c8e539914aeafdb48f15591ba75",
+        "file": "history-snapshots/encode--httpx--1bf1fc0ea8417c8e539914aeafdb48f15591ba75.zip",
+        "sha256": "e5a6c8beff4ddf9fe265ca7c415096401d37e9a00dba31494f23378ffed6f010",
+        "bytes": 50138,
+        "url": "https://github.com/encode/httpx/tree/1bf1fc0ea8417c8e539914aeafdb48f15591ba75/docs"
+      },
+      "after": {
+        "tag": "6f9b50990dad",
+        "commit": "6f9b50990dad9645a6f9dc0e1eb90af0a6474c3b",
+        "file": "history-snapshots/encode--httpx--6f9b50990dad9645a6f9dc0e1eb90af0a6474c3b.zip",
+        "sha256": "b61e4fec2308ae7b3ba8227b0450cc25b97e2c112e0e0a4363524268ee2a422b",
+        "bytes": 50136,
+        "url": "https://github.com/encode/httpx/tree/6f9b50990dad9645a6f9dc0e1eb90af0a6474c3b/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "3849e1518f34",
+        "commit": "3849e1518f342dd8cd08f8c0537b565d54e6d2a2",
+        "file": "history-snapshots/encode--httpx--3849e1518f342dd8cd08f8c0537b565d54e6d2a2.zip",
+        "sha256": "e1ccc6c02af09c423d6b3b17a3aa8e9b2b00d6bae96789e5e8d8ed37f0131d27",
+        "bytes": 50101,
+        "url": "https://github.com/encode/httpx/tree/3849e1518f342dd8cd08f8c0537b565d54e6d2a2/docs"
+      },
+      "after": {
+        "tag": "95a9527ed6a8",
+        "commit": "95a9527ed6a8b9a8e53ddee2f61447fb1a37e2a9",
+        "file": "history-snapshots/encode--httpx--95a9527ed6a8b9a8e53ddee2f61447fb1a37e2a9.zip",
+        "sha256": "e5a6c8beff4ddf9fe265ca7c415096401d37e9a00dba31494f23378ffed6f010",
+        "bytes": 50138,
+        "url": "https://github.com/encode/httpx/tree/95a9527ed6a8b9a8e53ddee2f61447fb1a37e2a9/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "49d74a2e7f77",
+        "commit": "49d74a2e7f773f88a84dd4af900d7a8543636ae2",
+        "file": "history-snapshots/encode--httpx--49d74a2e7f773f88a84dd4af900d7a8543636ae2.zip",
+        "sha256": "0ed4a263165725e4b452e360a11dd6bee8827b8daea82ab7607d3d65c654b24e",
+        "bytes": 50059,
+        "url": "https://github.com/encode/httpx/tree/49d74a2e7f773f88a84dd4af900d7a8543636ae2/docs"
+      },
+      "after": {
+        "tag": "3849e1518f34",
+        "commit": "3849e1518f342dd8cd08f8c0537b565d54e6d2a2",
+        "file": "history-snapshots/encode--httpx--3849e1518f342dd8cd08f8c0537b565d54e6d2a2.zip",
+        "sha256": "e1ccc6c02af09c423d6b3b17a3aa8e9b2b00d6bae96789e5e8d8ed37f0131d27",
+        "bytes": 50101,
+        "url": "https://github.com/encode/httpx/tree/3849e1518f342dd8cd08f8c0537b565d54e6d2a2/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "d4961b9f8e7f",
+        "commit": "d4961b9f8e7f00b654dbdbf200562bd273f598c7",
+        "file": "history-snapshots/encode--httpx--d4961b9f8e7f00b654dbdbf200562bd273f598c7.zip",
+        "sha256": "1d0cbca0f8321605c9cbd2dac96ee9e633abc48db76aa719209ae43dfb33ca19",
+        "bytes": 50049,
+        "url": "https://github.com/encode/httpx/tree/d4961b9f8e7f00b654dbdbf200562bd273f598c7/docs"
+      },
+      "after": {
+        "tag": "f06171fd5a86",
+        "commit": "f06171fd5a86cf89387f4ee860ea0da207160418",
+        "file": "history-snapshots/encode--httpx--f06171fd5a86cf89387f4ee860ea0da207160418.zip",
+        "sha256": "0ed4a263165725e4b452e360a11dd6bee8827b8daea82ab7607d3d65c654b24e",
+        "bytes": 50059,
+        "url": "https://github.com/encode/httpx/tree/f06171fd5a86cf89387f4ee860ea0da207160418/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "a7092af2fda7",
+        "commit": "a7092af2fda78d92daaad7627e4cf0cf5e94b019",
+        "file": "history-snapshots/encode--httpx--a7092af2fda78d92daaad7627e4cf0cf5e94b019.zip",
+        "sha256": "0ed4a263165725e4b452e360a11dd6bee8827b8daea82ab7607d3d65c654b24e",
+        "bytes": 50059,
+        "url": "https://github.com/encode/httpx/tree/a7092af2fda78d92daaad7627e4cf0cf5e94b019/docs"
+      },
+      "after": {
+        "tag": "fa6dac838354",
+        "commit": "fa6dac8383541669f42086d4f07c71b0f8d6a279",
+        "file": "history-snapshots/encode--httpx--fa6dac8383541669f42086d4f07c71b0f8d6a279.zip",
+        "sha256": "1d0cbca0f8321605c9cbd2dac96ee9e633abc48db76aa719209ae43dfb33ca19",
+        "bytes": 50049,
+        "url": "https://github.com/encode/httpx/tree/fa6dac8383541669f42086d4f07c71b0f8d6a279/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "2f5ae50726b1",
+        "commit": "2f5ae50726b1a2ca78340a25054f81cf4ed926c7",
+        "file": "history-snapshots/encode--httpx--2f5ae50726b1a2ca78340a25054f81cf4ed926c7.zip",
+        "sha256": "753a505baa8d40abe10193a91fe622ae45accad6890f284f355a144ab55738dc",
+        "bytes": 50059,
+        "url": "https://github.com/encode/httpx/tree/2f5ae50726b1a2ca78340a25054f81cf4ed926c7/docs"
+      },
+      "after": {
+        "tag": "be56b7473500",
+        "commit": "be56b747350008b7b0456242691919f9086c0f32",
+        "file": "history-snapshots/encode--httpx--be56b747350008b7b0456242691919f9086c0f32.zip",
+        "sha256": "0ed4a263165725e4b452e360a11dd6bee8827b8daea82ab7607d3d65c654b24e",
+        "bytes": 50059,
+        "url": "https://github.com/encode/httpx/tree/be56b747350008b7b0456242691919f9086c0f32/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "7354ed70ceb1",
+        "commit": "7354ed70ceb1a0f072af82e2cb784ef6b2512ed3",
+        "file": "history-snapshots/encode--httpx--7354ed70ceb1a0f072af82e2cb784ef6b2512ed3.zip",
+        "sha256": "c262d1169011d0e2d2bcf06876f44afa64bd41004f4a9ea7ca0fcb4f7e4be9fc",
+        "bytes": 50062,
+        "url": "https://github.com/encode/httpx/tree/7354ed70ceb1a0f072af82e2cb784ef6b2512ed3/docs"
+      },
+      "after": {
+        "tag": "4b85e6c3898b",
+        "commit": "4b85e6c3898b94e686b427afd83138c87520b479",
+        "file": "history-snapshots/encode--httpx--4b85e6c3898b94e686b427afd83138c87520b479.zip",
+        "sha256": "753a505baa8d40abe10193a91fe622ae45accad6890f284f355a144ab55738dc",
+        "bytes": 50059,
+        "url": "https://github.com/encode/httpx/tree/4b85e6c3898b94e686b427afd83138c87520b479/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "45bb65bba123",
+        "commit": "45bb65bba12360d94b8c512e6b13ac4b775a402d",
+        "file": "history-snapshots/encode--httpx--45bb65bba12360d94b8c512e6b13ac4b775a402d.zip",
+        "sha256": "5bbac43cf140cca6109d21a549d932143316c535fc00998147d1cfb72d97ca5f",
+        "bytes": 50072,
+        "url": "https://github.com/encode/httpx/tree/45bb65bba12360d94b8c512e6b13ac4b775a402d/docs"
+      },
+      "after": {
+        "tag": "5bb2ea0f4e12",
+        "commit": "5bb2ea0f4e1274730ef85f50f5a6bf07eb74eef4",
+        "file": "history-snapshots/encode--httpx--5bb2ea0f4e1274730ef85f50f5a6bf07eb74eef4.zip",
+        "sha256": "c262d1169011d0e2d2bcf06876f44afa64bd41004f4a9ea7ca0fcb4f7e4be9fc",
+        "bytes": 50062,
+        "url": "https://github.com/encode/httpx/tree/5bb2ea0f4e1274730ef85f50f5a6bf07eb74eef4/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "392dbe45f086",
+        "commit": "392dbe45f086d0877bd288c5d68abf860653b680",
+        "file": "history-snapshots/encode--httpx--392dbe45f086d0877bd288c5d68abf860653b680.zip",
+        "sha256": "4d092577b3fa75f4d9d268bbf454c041f311eb5d71a42762914c59fb74e5ab5a",
+        "bytes": 49619,
+        "url": "https://github.com/encode/httpx/tree/392dbe45f086d0877bd288c5d68abf860653b680/docs"
+      },
+      "after": {
+        "tag": "45bb65bba123",
+        "commit": "45bb65bba12360d94b8c512e6b13ac4b775a402d",
+        "file": "history-snapshots/encode--httpx--45bb65bba12360d94b8c512e6b13ac4b775a402d.zip",
+        "sha256": "5bbac43cf140cca6109d21a549d932143316c535fc00998147d1cfb72d97ca5f",
+        "bytes": 50072,
+        "url": "https://github.com/encode/httpx/tree/45bb65bba12360d94b8c512e6b13ac4b775a402d/docs"
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "7df47ce4d93a",
+        "commit": "7df47ce4d93a06f2c3310cd692b4c2336d7663ba",
+        "file": "history-snapshots/encode--httpx--7df47ce4d93a06f2c3310cd692b4c2336d7663ba.zip",
+        "sha256": "4038e84f78ba5df376430f5590a517878914244f5c7397ba49795d29abb46c18",
+        "bytes": 49575,
+        "url": "https://github.com/encode/httpx/tree/7df47ce4d93a06f2c3310cd692b4c2336d7663ba/docs"
+      },
+      "after": {
+        "tag": "392dbe45f086",
+        "commit": "392dbe45f086d0877bd288c5d68abf860653b680",
+        "file": "history-snapshots/encode--httpx--392dbe45f086d0877bd288c5d68abf860653b680.zip",
+        "sha256": "4d092577b3fa75f4d9d268bbf454c041f311eb5d71a42762914c59fb74e5ab5a",
+        "bytes": 49619,
+        "url": "https://github.com/encode/httpx/tree/392dbe45f086d0877bd288c5d68abf860653b680/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "b8be93a72179",
+        "commit": "b8be93a721792deeadd2f498b8f77cf610e7765f",
+        "file": "history-snapshots/psf--requests--b8be93a721792deeadd2f498b8f77cf610e7765f.zip",
+        "sha256": "027f928e7482599354135cb997063372bdc33297218d2fb6c860066611457c50",
+        "bytes": 39600,
+        "url": "https://github.com/psf/requests/tree/b8be93a721792deeadd2f498b8f77cf610e7765f/docs"
+      },
+      "after": {
+        "tag": "f3f2611d832e",
+        "commit": "f3f2611d832e762423f55e08899c64224902dad1",
+        "file": "history-snapshots/psf--requests--f3f2611d832e762423f55e08899c64224902dad1.zip",
+        "sha256": "588354854d8021f3ae6520db3db93d4330d77707a378d943ca11c247f282165d",
+        "bytes": 39498,
+        "url": "https://github.com/psf/requests/tree/f3f2611d832e762423f55e08899c64224902dad1/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "9439fad03848",
+        "commit": "9439fad03848d882f68710fdb3d69eaf02ef21ca",
+        "file": "history-snapshots/psf--requests--9439fad03848d882f68710fdb3d69eaf02ef21ca.zip",
+        "sha256": "d9ee166c74ad88fbe410c966ddbbd29be55403f95963abbfca31d17ba60fe4df",
+        "bytes": 39598,
+        "url": "https://github.com/psf/requests/tree/9439fad03848d882f68710fdb3d69eaf02ef21ca/docs"
+      },
+      "after": {
+        "tag": "7a13c041dbef",
+        "commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+        "file": "history-snapshots/psf--requests--7a13c041dbef42f9f3feb14110f02626f6892e9a.zip",
+        "sha256": "027f928e7482599354135cb997063372bdc33297218d2fb6c860066611457c50",
+        "bytes": 39600,
+        "url": "https://github.com/psf/requests/tree/7a13c041dbef42f9f3feb14110f02626f6892e9a/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "4f3f189d6b7d",
+        "commit": "4f3f189d6b7d2a19ff73dfb4a3e39713d4abe01a",
+        "file": "history-snapshots/psf--requests--4f3f189d6b7d2a19ff73dfb4a3e39713d4abe01a.zip",
+        "sha256": "4c0485ba0c8a763793527df3ef52ed6ebfe0a25b6b350b71269133f17118c3bf",
+        "bytes": 39869,
+        "url": "https://github.com/psf/requests/tree/4f3f189d6b7d2a19ff73dfb4a3e39713d4abe01a/docs"
+      },
+      "after": {
+        "tag": "46c1a3d8c837",
+        "commit": "46c1a3d8c83754167280e3479bc3ac43b4900ba6",
+        "file": "history-snapshots/psf--requests--46c1a3d8c83754167280e3479bc3ac43b4900ba6.zip",
+        "sha256": "d9ee166c74ad88fbe410c966ddbbd29be55403f95963abbfca31d17ba60fe4df",
+        "bytes": 39598,
+        "url": "https://github.com/psf/requests/tree/46c1a3d8c83754167280e3479bc3ac43b4900ba6/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "f3f978441916",
+        "commit": "f3f978441916389abcb2f2a72522955d551326e9",
+        "file": "history-snapshots/psf--requests--f3f978441916389abcb2f2a72522955d551326e9.zip",
+        "sha256": "9292cf473fbb8659ab20576942aa68e2817bfe67caa3f7c3c6a4985a88abf336",
+        "bytes": 39893,
+        "url": "https://github.com/psf/requests/tree/f3f978441916389abcb2f2a72522955d551326e9/docs"
+      },
+      "after": {
+        "tag": "72eccc8dd8b7",
+        "commit": "72eccc8dd8b7c272e520f22b0256386c80864e94",
+        "file": "history-snapshots/psf--requests--72eccc8dd8b7c272e520f22b0256386c80864e94.zip",
+        "sha256": "4c0485ba0c8a763793527df3ef52ed6ebfe0a25b6b350b71269133f17118c3bf",
+        "bytes": 39869,
+        "url": "https://github.com/psf/requests/tree/72eccc8dd8b7c272e520f22b0256386c80864e94/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "1396eb6f7a11",
+        "commit": "1396eb6f7a1116d49f1f0df0ddf895343f84af64",
+        "file": "history-snapshots/psf--requests--1396eb6f7a1116d49f1f0df0ddf895343f84af64.zip",
+        "sha256": "dc91d5899e7b798f8935d5ea1b17c92f1fd16f29e1768d80ea93f232db475467",
+        "bytes": 39888,
+        "url": "https://github.com/psf/requests/tree/1396eb6f7a1116d49f1f0df0ddf895343f84af64/docs"
+      },
+      "after": {
+        "tag": "f3f978441916",
+        "commit": "f3f978441916389abcb2f2a72522955d551326e9",
+        "file": "history-snapshots/psf--requests--f3f978441916389abcb2f2a72522955d551326e9.zip",
+        "sha256": "9292cf473fbb8659ab20576942aa68e2817bfe67caa3f7c3c6a4985a88abf336",
+        "bytes": 39893,
+        "url": "https://github.com/psf/requests/tree/f3f978441916389abcb2f2a72522955d551326e9/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "51d0d83eaf7c",
+        "commit": "51d0d83eaf7cd82526443424f61f7b5cfad82cde",
+        "file": "history-snapshots/psf--requests--51d0d83eaf7cd82526443424f61f7b5cfad82cde.zip",
+        "sha256": "16f0fa0516cd8b386fb250dff1bd84a2735c7c12e4acae480ff1cb9e574e4f41",
+        "bytes": 39561,
+        "url": "https://github.com/psf/requests/tree/51d0d83eaf7cd82526443424f61f7b5cfad82cde/docs"
+      },
+      "after": {
+        "tag": "1ddf014f477c",
+        "commit": "1ddf014f477c322197400c365aef9fab56e25e40",
+        "file": "history-snapshots/psf--requests--1ddf014f477c322197400c365aef9fab56e25e40.zip",
+        "sha256": "dc91d5899e7b798f8935d5ea1b17c92f1fd16f29e1768d80ea93f232db475467",
+        "bytes": 39888,
+        "url": "https://github.com/psf/requests/tree/1ddf014f477c322197400c365aef9fab56e25e40/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "89f0eb91b396",
+        "commit": "89f0eb91b396619db6695b64e368950e36bdbe7f",
+        "file": "history-snapshots/psf--requests--89f0eb91b396619db6695b64e368950e36bdbe7f.zip",
+        "sha256": "f312131d62141bb18f0783d84dabdb640cbd1eb5ef9f95e2fbc7fd612b8c6e6f",
+        "bytes": 39557,
+        "url": "https://github.com/psf/requests/tree/89f0eb91b396619db6695b64e368950e36bdbe7f/docs"
+      },
+      "after": {
+        "tag": "2ee5b0b01c9e",
+        "commit": "2ee5b0b01c9e7c14217a536886b337d6f08b9aac",
+        "file": "history-snapshots/psf--requests--2ee5b0b01c9e7c14217a536886b337d6f08b9aac.zip",
+        "sha256": "16f0fa0516cd8b386fb250dff1bd84a2735c7c12e4acae480ff1cb9e574e4f41",
+        "bytes": 39561,
+        "url": "https://github.com/psf/requests/tree/2ee5b0b01c9e7c14217a536886b337d6f08b9aac/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "aa4cc78627bc",
+        "commit": "aa4cc78627bcf8ff87b73422ec06748d833c7a15",
+        "file": "history-snapshots/psf--requests--aa4cc78627bcf8ff87b73422ec06748d833c7a15.zip",
+        "sha256": "d7efffbeecb712d42eae6b31323bb59cb8bc2c765b3a82ec674f04b8f0a84c36",
+        "bytes": 39554,
+        "url": "https://github.com/psf/requests/tree/aa4cc78627bcf8ff87b73422ec06748d833c7a15/docs"
+      },
+      "after": {
+        "tag": "cb7fcd7ebddb",
+        "commit": "cb7fcd7ebddb45917fb7a526d3627feb2d7738b9",
+        "file": "history-snapshots/psf--requests--cb7fcd7ebddb45917fb7a526d3627feb2d7738b9.zip",
+        "sha256": "f312131d62141bb18f0783d84dabdb640cbd1eb5ef9f95e2fbc7fd612b8c6e6f",
+        "bytes": 39557,
+        "url": "https://github.com/psf/requests/tree/cb7fcd7ebddb45917fb7a526d3627feb2d7738b9/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "dfe46c1b7f55",
+        "commit": "dfe46c1b7f55c9377caecba2119be14d3cce74e5",
+        "file": "history-snapshots/psf--requests--dfe46c1b7f55c9377caecba2119be14d3cce74e5.zip",
+        "sha256": "1ea9289803db36c18de91f15dbe56fa3d2209fbe7266fc77b021e93dab6c5e11",
+        "bytes": 39447,
+        "url": "https://github.com/psf/requests/tree/dfe46c1b7f55c9377caecba2119be14d3cce74e5/docs"
+      },
+      "after": {
+        "tag": "aa4cc78627bc",
+        "commit": "aa4cc78627bcf8ff87b73422ec06748d833c7a15",
+        "file": "history-snapshots/psf--requests--aa4cc78627bcf8ff87b73422ec06748d833c7a15.zip",
+        "sha256": "d7efffbeecb712d42eae6b31323bb59cb8bc2c765b3a82ec674f04b8f0a84c36",
+        "bytes": 39554,
+        "url": "https://github.com/psf/requests/tree/aa4cc78627bcf8ff87b73422ec06748d833c7a15/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "22db55a8896b",
+        "commit": "22db55a8896b69e53d0a3cc2764c27b832c81478",
+        "file": "history-snapshots/psf--requests--22db55a8896b69e53d0a3cc2764c27b832c81478.zip",
+        "sha256": "2a205e7d1fd524d36d7a382d14db0d41bc3816af21cdd25a2250c73f541c5387",
+        "bytes": 39217,
+        "url": "https://github.com/psf/requests/tree/22db55a8896b69e53d0a3cc2764c27b832c81478/docs"
+      },
+      "after": {
+        "tag": "cdbc2e271529",
+        "commit": "cdbc2e271529f467b278b2760f12ee0b5d6930d3",
+        "file": "history-snapshots/psf--requests--cdbc2e271529f467b278b2760f12ee0b5d6930d3.zip",
+        "sha256": "1ea9289803db36c18de91f15dbe56fa3d2209fbe7266fc77b021e93dab6c5e11",
+        "bytes": 39447,
+        "url": "https://github.com/psf/requests/tree/cdbc2e271529f467b278b2760f12ee0b5d6930d3/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "15585909c3dd",
+        "commit": "15585909c3dd3014e4083961c8a404709450151c",
+        "file": "history-snapshots/psf--requests--15585909c3dd3014e4083961c8a404709450151c.zip",
+        "sha256": "9e366db99f9a828974c035564d5029dcd1d1e0e370df223984406850aed6c757",
+        "bytes": 39224,
+        "url": "https://github.com/psf/requests/tree/15585909c3dd3014e4083961c8a404709450151c/docs"
+      },
+      "after": {
+        "tag": "46188256ee59",
+        "commit": "46188256ee5955147cce4c0af91958b1681b47b1",
+        "file": "history-snapshots/psf--requests--46188256ee5955147cce4c0af91958b1681b47b1.zip",
+        "sha256": "2a205e7d1fd524d36d7a382d14db0d41bc3816af21cdd25a2250c73f541c5387",
+        "bytes": 39217,
+        "url": "https://github.com/psf/requests/tree/46188256ee5955147cce4c0af91958b1681b47b1/docs"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "1e62a3ec18e1",
+        "commit": "1e62a3ec18e19f85ddae03b4cbbdf0b4c62834c0",
+        "file": "history-snapshots/psf--requests--1e62a3ec18e19f85ddae03b4cbbdf0b4c62834c0.zip",
+        "sha256": "e6e0dc7131118a109369044fd441feab784a45cf4140d35cdcfa3c262520b1ec",
+        "bytes": 39223,
+        "url": "https://github.com/psf/requests/tree/1e62a3ec18e19f85ddae03b4cbbdf0b4c62834c0/docs"
+      },
+      "after": {
+        "tag": "ac3be98b19f4",
+        "commit": "ac3be98b19f4d09c6a970b271a3ae30f3d0858f7",
+        "file": "history-snapshots/psf--requests--ac3be98b19f4d09c6a970b271a3ae30f3d0858f7.zip",
+        "sha256": "8fe28a183d3fcc85b4f60de944b5b4727c7e22bacdeeab5fb01141fb7eb0181a",
+        "bytes": 39224,
+        "url": "https://github.com/psf/requests/tree/ac3be98b19f4d09c6a970b271a3ae30f3d0858f7/docs"
+      }
+    }
+  ],
+  "cohort": "exploratory actual small commits",
+  "protocol": {
+    "schema_version": 1,
+    "status": "Exploratory follow-up defined after the primary full-release experiment; not a replacement for its frozen outcome",
+    "reason": "Complete release changes can overrepresent bulk edits. Test actual small documentation commits as a distinct workload.",
+    "projects": [
+      "psf/requests",
+      "encode/httpx"
+    ],
+    "history": "100 commits ending at the pinned after-release revision",
+    "selection": "Most recent 12 first-parent documentation commits per project with an available parent and an actual retained English documentation change",
+    "snapshot": "Exact parent and commit document trees from Git objects, not a release corpus with a fabricated single-file patch",
+    "retrievers": [
+      "word TF-IDF",
+      "character TF-IDF"
+    ],
+    "metrics": "Reuse the existing scheduler/evidence-change definitions and zero/one/five/twenty sentinel controls",
+    "independence": "Report unique probes, unique document families, and update events separately; repeated replay across commits is not additional independent questions",
+    "limitations": "Two Python HTTP client projects; small observed history; no model-backed LightRAG or semantic answer quality claim"
+  }
+}

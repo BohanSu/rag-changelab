@@ -8,4 +8,5 @@ build/
 dist/
 reports/
 demo/
+validation/
 .env

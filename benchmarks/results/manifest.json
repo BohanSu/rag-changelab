@@ -1,0 +1,130 @@
+{
+  "ragtruth": {
+    "url": "https://codeload.github.com/ParticleMedia/RAGTruth/zip/c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+    "file": "ragtruth.zip",
+    "bytes": 7397888,
+    "sha256": "7bf200e5c3e7c6619bc5d1bf0305faeb55a8339a02ef28599248b638be1f67f2"
+  },
+  "timelyqa": {
+    "url": "https://raw.githubusercontent.com/kaist-dmlab/TimelyRAG/5213a0c1743f23fd52a258005c3887aaf7e8cd0f/datasets.zip",
+    "file": "timelyqa.zip",
+    "bytes": 5765226,
+    "sha256": "a006481ffdf723d4b15554da2c621ebdfefd59b78ad37c58a633b3b71de247ad"
+  },
+  "releases": [
+    {
+      "repo": "encode/httpx",
+      "before": {
+        "tag": "0.27.0",
+        "commit": "326b9431c761e1ef1e00b9f760d1f654c8db48c6",
+        "url": "https://codeload.github.com/encode/httpx/zip/326b9431c761e1ef1e00b9f760d1f654c8db48c6",
+        "file": "encode--httpx--before.zip",
+        "bytes": 2218616,
+        "sha256": "b94fbc2827bb0a94f3892c2cf76403711cd897011381cdd5c7e960f7b34f2fc3"
+      },
+      "after": {
+        "tag": "0.28.1",
+        "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+        "url": "https://codeload.github.com/encode/httpx/zip/26d48e0634e6ee9cdc0533996db289ce4b430177",
+        "file": "encode--httpx--after.zip",
+        "bytes": 4168336,
+        "sha256": "0bbe6c1b73493a8a059f3de176a897b02f6531409d36cd92658b73443fc93a9c"
+      }
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "before": {
+        "tag": "0.110.0",
+        "commit": "e40747f10ae911910e9cb9a9684576f3b21304c9",
+        "url": "https://codeload.github.com/fastapi/fastapi/zip/e40747f10ae911910e9cb9a9684576f3b21304c9",
+        "file": "fastapi--fastapi--before.zip",
+        "bytes": 13176200,
+        "sha256": "bcc58ea618e99f0039d18e50bfae1dc18508d93fcc3954ff946b40a4ad62d3d7"
+      },
+      "after": {
+        "tag": "0.115.0",
+        "commit": "40e33e492dbf4af6172997f4e3238a32e56cbe26",
+        "url": "https://codeload.github.com/fastapi/fastapi/zip/40e33e492dbf4af6172997f4e3238a32e56cbe26",
+        "file": "fastapi--fastapi--after.zip",
+        "bytes": 14064638,
+        "sha256": "321de347b41fd2d0ab7a382bfbbe88ecdf3224947758640bea7a6d6d51b9984b"
+      }
+    },
+    {
+      "repo": "mkdocs/mkdocs",
+      "before": {
+        "tag": "1.5.3",
+        "commit": "00b648f0884244a139f034554b59a032113176f6",
+        "url": "https://codeload.github.com/mkdocs/mkdocs/zip/00b648f0884244a139f034554b59a032113176f6",
+        "file": "mkdocs--mkdocs--before.zip",
+        "bytes": 4205533,
+        "sha256": "06ed6fa87f7a04d3198f64b3b37ae42bca264f61487876a660056b60040aec0c"
+      },
+      "after": {
+        "tag": "1.6.1",
+        "commit": "bb7e8b62185b11d9f59bb7f50b13c15134f62f8a",
+        "url": "https://codeload.github.com/mkdocs/mkdocs/zip/bb7e8b62185b11d9f59bb7f50b13c15134f62f8a",
+        "file": "mkdocs--mkdocs--after.zip",
+        "bytes": 4647222,
+        "sha256": "3b80647f4e71a38ac876ec7ddc89293fa58029c7631ca6935411a964ffde77f0"
+      }
+    },
+    {
+      "repo": "pallets/click",
+      "before": {
+        "tag": "8.1.7",
+        "commit": "874ca2bc1c30d93a4ac6e36a15ed685eafe89097",
+        "url": "https://codeload.github.com/pallets/click/zip/874ca2bc1c30d93a4ac6e36a15ed685eafe89097",
+        "file": "pallets--click--before.zip",
+        "bytes": 397422,
+        "sha256": "459d5c6f369274c2e119a5bee01f35225bf518ec0a9076c6f009e2808694a79a"
+      },
+      "after": {
+        "tag": "8.2.1",
+        "commit": "fd183b2ced1cb5857784fe7fb22f4982f671f098",
+        "url": "https://codeload.github.com/pallets/click/zip/fd183b2ced1cb5857784fe7fb22f4982f671f098",
+        "file": "pallets--click--after.zip",
+        "bytes": 457064,
+        "sha256": "5c3d68916b6c68e1af0cb1190ca2bf249bf9fad05f876467aa479469f6760b7d"
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "before": {
+        "tag": "v2.31.0",
+        "commit": "147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4",
+        "url": "https://codeload.github.com/psf/requests/zip/147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4",
+        "file": "psf--requests--before.zip",
+        "bytes": 4067017,
+        "sha256": "75138868248e51f742ffb70b70c0e2bd1024aae48728e55041da642f234719e6"
+      },
+      "after": {
+        "tag": "v2.32.3",
+        "commit": "0e322af87745eff34caffe4df68456ebc20d9068",
+        "url": "https://codeload.github.com/psf/requests/zip/0e322af87745eff34caffe4df68456ebc20d9068",
+        "file": "psf--requests--after.zip",
+        "bytes": 4100454,
+        "sha256": "706ac73e0ff00779543dc4dceaf11127cc1d927c5bc551d74729107a70d9a311"
+      }
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "before": {
+        "tag": "v2.5.3",
+        "commit": "9f58e785a5f1f2c34437f6e9b6adcd5b969e0df4",
+        "url": "https://codeload.github.com/pydantic/pydantic/zip/9f58e785a5f1f2c34437f6e9b6adcd5b969e0df4",
+        "file": "pydantic--pydantic--before.zip",
+        "bytes": 2957559,
+        "sha256": "3451d03584297e3b442943f8a7e59f2e7c7ac8cb26cb3d3129e55f61a7df6639"
+      },
+      "after": {
+        "tag": "v2.10.6",
+        "commit": "df05e69a8a3fb37628a0e3a33518ca0425334bc9",
+        "url": "https://codeload.github.com/pydantic/pydantic/zip/df05e69a8a3fb37628a0e3a33518ca0425334bc9",
+        "file": "pydantic--pydantic--after.zip",
+        "bytes": 3241713,
+        "sha256": "0cf894e55cf501d80f7a94159b85b559b37699ec2466bf0021b53570178240b8"
+      }
+    }
+  ]
+}

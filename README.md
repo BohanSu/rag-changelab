@@ -1,5 +1,12 @@
 # RAG ChangeLab
 
+**Status: experimental prototype under external validation.** The large audit
+found that literal answer rules miss negation/contradiction and reject many valid
+equivalent renderings. Full release updates provided little scheduling benefit;
+small real commits showed savings with uneven evidence-change coverage. A plain
+reverse index reproduced the planner's selections. Independent product value and
+model-backed LightRAG effectiveness remain unestablished.
+
 **Turn a knowledge-base update into a reviewable answer-and-evidence regression test.**
 
 A handbook changes “30 days” to “7 days”. Your RAG still answers “30 days”, or gives
@@ -71,6 +78,64 @@ versions. ChangeLab combines:
 This is an independently implemented workflow built on established libraries.
 It complements broader RAG evaluation frameworks; it does not claim a new semantic
 evaluation metric or universal regression detection.
+
+## External validation
+
+The original eight-question demo is a smoke test. The external audit evaluates the
+unchanged v0.1 implementation with a separately committed
+[protocol](benchmarks/protocol.json), grouped splits, per-family outcomes, and
+source-group bootstrap intervals:
+
+| Layer | Scale | Interpretation |
+| --- | --- | --- |
+| RAGTruth | 2,965 source instances, 17,790 recorded answers from six models | Human hallucination annotations; official test split has 450 source groups / 2,700 answers |
+| TimelyQABench | 12,000 raw temporal contexts, 11,613 distinct normalized questions, four domains | External synthetic data; duplicate grouping, empty references, corrupt timestamps and future-dated evidence are audited |
+| Controlled contract checks | 15,408 base cases / 200,304 derived observations across 13 families | Fault injections and equivalent renderings; **not** 200,304 independent real-model answers |
+| Real release history | 2,182 generated section probes from six projects and 12 pinned snapshots | Actual documentation and retrieval changes; no answer-quality inference |
+| Small-commit follow-up | 24 actual parent/commit pairs from Requests and HTTPX | Exploratory follow-up after the primary audit; repeated queries across versions remain correlated |
+
+The controlled held-out split contains 29,172 observations from 1,816 source/query
+groups. There is no split overlap between variants of the same group. All outcomes
+are reported, including unsupported semantic evaluation inputs; no gold citations
+or gold annotation spans are injected into recorded RAGTruth answers.
+
+Full release updates saved a median 0% of calls. On the exploratory small-commit
+cohort, median savings were 57.9%, pooled evidence-change coverage was 97.2%, and
+the worst individual comparison covered 40%. Both sparse retrievers stayed paired
+within update-event uncertainty estimates. **Evidence-change coverage is not
+semantic regression recall.**
+
+All controlled statuses and planning selections were reproduced by simpler plain
+Python / reverse-index comparators. In an additional **actual Promptfoo 0.125.1**
+run, its `icontains` assertion matched ChangeLab on all 13,464 held-out text checks,
+with zero execution errors and zero model tokens. This compares the literal-text
+component only; it establishes no result about Promptfoo/Ragas semantic evaluators.
+These findings motivate validating a narrowly scoped integration before adding
+more framework features.
+
+Results: [aggregate JSON](benchmarks/results/summary.json),
+[input hashes](benchmarks/results/manifest.json), and compressed per-observation
+indexes in [benchmarks/results](benchmarks/results). Third-party corpus text and
+model weights are not redistributed in this repository.
+
+```bash
+python -m pip install -e '.[demo,dev]' -r benchmarks/requirements.txt
+python benchmarks/fetch.py --data-dir reports/audit-data
+python benchmarks/run.py --data-dir reports/audit-data --out reports/validation
+# Optional exploratory actual-commit cohort; may fetch Git objects:
+python benchmarks/incremental.py --data-dir reports/audit-data --out reports/validation
+# Optional actual-tool comparison; recorded outputs only, no model calls:
+npm install --prefix reports/promptfoo-runtime promptfoo@0.125.1
+python benchmarks/promptfoo_compare.py --data-dir reports/audit-data \
+  --runtime reports/promptfoo-runtime --out reports/validation
+```
+
+The audit requires scikit-learn (`pip install -e '.[demo,dev]'`). Downloads are
+content-checked and source revisions are recorded. The experiment rejects changes
+to the frozen core implementation rather than silently scoring a tuned replacement.
+There is no model-backed LightRAG deployment result yet.
+The manually dispatched audit workflow succeeds when execution and integrity
+checks finish; the separate utility gate can still fail, as it does here.
 
 ## Use with LightRAG
 
