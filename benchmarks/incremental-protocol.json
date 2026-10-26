@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "Exploratory follow-up defined after the primary full-release experiment; not a replacement for its frozen outcome",
+  "reason": "Complete release changes can overrepresent bulk edits. Test actual small documentation commits as a distinct workload.",
+  "projects": ["psf/requests", "encode/httpx"],
+  "history": "100 commits ending at the pinned after-release revision",
+  "selection": "Most recent 12 first-parent documentation commits per project with an available parent and an actual retained English documentation change",
+  "snapshot": "Exact parent and commit document trees from Git objects, not a release corpus with a fabricated single-file patch",
+  "retrievers": ["word TF-IDF", "character TF-IDF"],
+  "metrics": "Reuse the existing scheduler/evidence-change definitions and zero/one/five/twenty sentinel controls",
+  "independence": "Report unique probes, unique document families, and update events separately; repeated replay across commits is not additional independent questions",
+  "limitations": "Two Python HTTP client projects; small observed history; no model-backed LightRAG or semantic answer quality claim"
+}
