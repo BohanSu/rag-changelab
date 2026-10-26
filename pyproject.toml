@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-changelab"
+version = "0.1.0"
+description = "Document-change regression testing for RAG answers and versioned evidence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Bohan Su"}]
+dependencies = ["pydantic>=2.10,<3", "networkx>=3.3,<4", "httpx>=0.27,<1"]
+
+[project.optional-dependencies]
+demo = ["scikit-learn>=1.5,<2"]
+dev = ["pytest>=8,<10", "ruff>=0.11"]
+
+[project.scripts]
+rag-changelab = "rag_changelab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "RUF022"]
