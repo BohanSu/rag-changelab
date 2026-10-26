@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "name": "ChangeLab external validity audit v1",
+  "evaluated_implementation": "66ed7dd0a3e0ec7095f23216c4e1d3dfc1362202",
+  "status": "frozen before scoring; data schemas and inventory inspected",
+  "purpose": "Try to falsify practical value; do not optimize the tool on evaluation outcomes.",
+  "datasets": {
+    "ragtruth": {
+      "repository": "https://github.com/ParticleMedia/RAGTruth",
+      "commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+      "role": "Human-labeled real model outputs, task compatibility and semantic-check boundary",
+      "expected_sources": 2965,
+      "expected_responses": 17790,
+      "official_test_responses": 2700,
+      "evaluation_split": "official test; train is inventory/development only",
+      "unit": "source_id, with six correlated model responses per source",
+      "semantic_label": "at least one annotated span with implicit_true != true",
+      "quality_policy": "good responses in primary metrics; report truncated/refusal exclusions",
+      "native_applicability": "Do not invent answer citations or gold-text contracts for free-form answers. Unsupported task formats are unscored, not hallucinations."
+    },
+    "timelyqa": {
+      "repository": "https://github.com/kaist-dmlab/TimelyRAG",
+      "commit": "5213a0c1743f23fd52a258005c3887aaf7e8cd0f",
+      "role": "External synthetic temporal-conflict stress; not real document history",
+      "expected_questions": 12000,
+      "domains": ["university", "law", "company_policies", "terms_of_service"],
+      "unit": "normalized query group, never a derived fault variant",
+      "split": "grouped SHA-256 bucket: 0-69 development, 70-84 validation, 85-99 held-out test",
+      "duplicate_policy": "Deduplicate normalized queries within domain before contracts; same group cannot cross splits",
+      "time_policy": "Audit gold evidence dated after query; quarantine those rows from any as-of availability claim",
+      "license_policy": "Do not redistribute third-party corpus text without an explicit dataset license"
+    },
+    "release_history": {
+      "role": "Human-authored real release snapshots; actual retrieval/evidence impact, no LLM quality claim",
+      "projects": [
+        {"repo": "psf/requests", "before": "v2.31.0", "after": "v2.32.3"},
+        {"repo": "encode/httpx", "before": "0.27.0", "after": "0.28.1"},
+        {"repo": "pydantic/pydantic", "before": "v2.5.3", "after": "v2.10.6"},
+        {"repo": "fastapi/fastapi", "before": "0.110.0", "after": "0.115.0"},
+        {"repo": "mkdocs/mkdocs", "before": "1.5.3", "after": "1.6.1"},
+        {"repo": "pallets/click", "before": "8.1.7", "after": "8.2.1"}
+      ],
+      "query_policy": "Unique section-heading paths from baseline English docs, explicitly generated retrieval probes, not human QA",
+      "split": "Source document family; before/after versions and sections stay together",
+      "retrievers": ["word TF-IDF", "character TF-IDF"],
+      "retrieved_documents_per_query": 3,
+      "minimum_probe_target": 1000,
+      "ground_truth": "Full retest change in top-k source IDs/content hashes; evidence-change coverage is not semantic regression recall",
+      "baselines": ["full retest", "plain reverse source index", "same-budget random", "same-budget keyword impact"],
+      "sentinels": [0, 1, 5, 20],
+      "conditions": ["complete real release change", "common-files-only ablation, explicitly excluding additions/deletions"]
+    }
+  },
+  "controlled_contract_families": [
+    "valid exact answer", "valid wrapper", "valid equivalent rendering", "negated required phrase",
+    "contradictory extra claim", "missing required answer", "missing citation", "deleted source",
+    "wrong source hash", "unsupported quote", "ID-only evidence", "unmapped source", "backend unavailable"
+  ],
+  "statistical_policy": {
+    "positive_class": "failure when measuring fault detection",
+    "report": ["precision", "recall", "false-positive rate", "false-negative rate", "unknown rate", "confusion counts", "per-family metrics", "per-domain metrics"],
+    "uncertainty": "95% bootstrap intervals by source/query group, never by correlated variants",
+    "no_global_average": "Do not pool incompatible semantic, provenance, temporal, and scheduler tasks into one accuracy score"
+  },
+  "continuation_gates": {
+    "semantic_claim": "Cannot claim semantic correctness without a supported semantic verifier and externally labeled validation",
+    "scheduler_claim": "At least 20% median call reduction at >=95% evidence-change coverage on full real release updates; report any fallback and all unchecked cases",
+    "independent_value": "Must beat or materially simplify a plain reverse index / existing evaluation workflow",
+    "deployment_claim": "Requires actual model-backed LightRAG run; public replay and HTTP fixtures do not satisfy this gate"
+  },
+  "compute_policy": "Use already available CPU libraries and public recorded outputs; do not silently replace a real LightRAG deployment with an extractive mock.",
+  "disclosure": "No model/API credentials are currently configured; a model-backed LightRAG experiment remains a separately visible gap."
+}
