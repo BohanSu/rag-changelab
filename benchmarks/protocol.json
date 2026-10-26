@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
-  "name": "ChangeLab external validity audit v1",
+  "name": "ChangeLab external validity audit v1.1",
   "evaluated_implementation": "66ed7dd0a3e0ec7095f23216c4e1d3dfc1362202",
-  "status": "frozen before scoring; data schemas and inventory inspected",
+  "status": "v1 frozen at 4c9eb67; v1.1 data-only amendment after input validation rejected empty reference answers, before a completed scored run",
+  "data_amendment": "Quarantine empty questions/answers and invalid gold evidence. Preserve different temporal contexts of a repeated question as correlated cases in one split; deduplicate exact question/time/context/answer records. This corrects the unit of deduplication without changing the core implementation or acceptance gates.",
   "purpose": "Try to falsify practical value; do not optimize the tool on evaluation outcomes.",
   "datasets": {
     "ragtruth": {
@@ -26,7 +27,7 @@
       "domains": ["university", "law", "company_policies", "terms_of_service"],
       "unit": "normalized query group, never a derived fault variant",
       "split": "grouped SHA-256 bucket: 0-69 development, 70-84 validation, 85-99 held-out test",
-      "duplicate_policy": "Deduplicate normalized queries within domain before contracts; same group cannot cross splits",
+      "duplicate_policy": "Deduplicate normalized question/time/context/answer records; repeated questions with different contexts remain correlated cases in one numeric-masked query group. Report distinct raw rows, unique questions, contexts, and groups.",
       "time_policy": "Audit gold evidence dated after query; quarantine those rows from any as-of availability claim",
       "license_policy": "Do not redistribute third-party corpus text without an explicit dataset license"
     },
